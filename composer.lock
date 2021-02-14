@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4ccf3854ca6ed7ffc72e921029291f6",
+    "content-hash": "78019a53c4125e4cd5508ab8411ed946",
     "packages": [],
     "packages-dev": [
         {
@@ -647,16 +647,16 @@
         },
         {
             "name": "ergebnis/classy",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/classy.git",
-                "reference": "1479cf8af6a75b11586ab2b2a87482d090c99dfb"
+                "reference": "72840bda3ce8b7bdc9362e8646141eb3c5ca9947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/classy/zipball/1479cf8af6a75b11586ab2b2a87482d090c99dfb",
-                "reference": "1479cf8af6a75b11586ab2b2a87482d090c99dfb",
+                "url": "https://api.github.com/repos/ergebnis/classy/zipball/72840bda3ce8b7bdc9362e8646141eb3c5ca9947",
+                "reference": "72840bda3ce8b7bdc9362e8646141eb3c5ca9947",
                 "shasum": ""
             },
             "require": {
@@ -664,19 +664,19 @@
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.7.1",
-                "ergebnis/license": "^1.0.0",
-                "ergebnis/php-cs-fixer-config": "^2.2.1",
-                "ergebnis/phpstan-rules": "~0.15.2",
+                "ergebnis/composer-normalize": "^2.13.2",
+                "ergebnis/license": "^1.1.0",
+                "ergebnis/php-cs-fixer-config": "^2.13.0",
+                "ergebnis/phpstan-rules": "~0.15.3",
                 "ergebnis/test-util": "^1.0.0",
                 "infection/infection": "~0.15.3",
-                "phpstan/extension-installer": "^1.0.4",
-                "phpstan/phpstan": "~0.12.40",
-                "phpstan/phpstan-deprecation-rules": "~0.12.5",
-                "phpstan/phpstan-strict-rules": "~0.12.4",
-                "phpunit/phpunit": "^8.5.8",
-                "psalm/plugin-phpunit": "~0.11.0",
-                "vimeo/psalm": "^3.14.2",
+                "phpstan/extension-installer": "^1.1.0",
+                "phpstan/phpstan": "~0.12.70",
+                "phpstan/phpstan-deprecation-rules": "~0.12.6",
+                "phpstan/phpstan-strict-rules": "~0.12.9",
+                "phpunit/phpunit": "^8.5.14",
+                "psalm/plugin-phpunit": "~0.15.0",
+                "vimeo/psalm": "^4.4.1",
                 "zendframework/zend-file": "^2.8.3"
             },
             "type": "library",
@@ -710,17 +710,13 @@
                 "interfaces",
                 "traits"
             ],
-            "support": {
-                "issues": "https://github.com/ergebnis/classy/issues",
-                "source": "https://github.com/ergebnis/classy"
-            },
             "funding": [
                 {
                     "url": "https://github.com/localheinz",
                     "type": "github"
                 }
             ],
-            "time": "2020-08-30T10:41:50+00:00"
+            "time": "2021-02-01T08:25:30+00:00"
         },
         {
             "name": "ergebnis/composer-normalize",
@@ -1070,10 +1066,6 @@
             ],
             "description": "Provides a configuration factory and multiple rule sets for friendsofphp/php-cs-fixer.",
             "homepage": "https://github.com/ergebnis/php-cs-fixer-config",
-            "support": {
-                "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
-                "source": "https://github.com/ergebnis/php-cs-fixer-config"
-            },
             "funding": [
                 {
                     "url": "https://github.com/localheinz",
@@ -1237,16 +1229,16 @@
         },
         {
             "name": "fakerphp/faker",
-            "version": "v1.12.1",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "841e8bdde345cc1ea9f98e776959e7531cadea0e"
+                "reference": "ab3f5364d01f2c2c16113442fb987d26e4004913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/841e8bdde345cc1ea9f98e776959e7531cadea0e",
-                "reference": "841e8bdde345cc1ea9f98e776959e7531cadea0e",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/ab3f5364d01f2c2c16113442fb987d26e4004913",
+                "reference": "ab3f5364d01f2c2c16113442fb987d26e4004913",
                 "shasum": ""
             },
             "require": {
@@ -1281,11 +1273,7 @@
                 "faker",
                 "fixtures"
             ],
-            "support": {
-                "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.12.1"
-            },
-            "time": "2020-12-11T10:39:41+00:00"
+            "time": "2020-12-18T16:50:48+00:00"
         },
         {
             "name": "felixfbecker/advanced-json-rpc",
@@ -1479,10 +1467,6 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "support": {
-                "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
-                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v2.18.2"
-            },
             "funding": [
                 {
                     "url": "https://github.com/keradus",
@@ -2609,16 +2593,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.75",
+            "version": "0.12.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "2e4738cd67e0163861a065180eff7eb5c8417d6e"
+                "reference": "7aaaf9a759a29795e8f46d48041af1c1f1b23d38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2e4738cd67e0163861a065180eff7eb5c8417d6e",
-                "reference": "2e4738cd67e0163861a065180eff7eb5c8417d6e",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7aaaf9a759a29795e8f46d48041af1c1f1b23d38",
+                "reference": "7aaaf9a759a29795e8f46d48041af1c1f1b23d38",
                 "shasum": ""
             },
             "require": {
@@ -2647,10 +2631,6 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "support": {
-                "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.75"
-            },
             "funding": [
                 {
                     "url": "https://github.com/ondrejmirtes",
@@ -2665,7 +2645,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-11T13:58:47+00:00"
+            "time": "2021-02-13T11:47:44+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -3355,10 +3335,6 @@
                 }
             ],
             "description": "Psalm plugin for PHPUnit",
-            "support": {
-                "issues": "https://github.com/psalm/psalm-plugin-phpunit/issues",
-                "source": "https://github.com/psalm/psalm-plugin-phpunit/tree/0.15.1"
-            },
             "time": "2021-01-23T00:19:07+00:00"
         },
         {
@@ -4508,9 +4484,6 @@
                 "console",
                 "terminal"
             ],
-            "support": {
-                "source": "https://github.com/symfony/console/tree/v5.2.3"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4596,7 +4569,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -4660,9 +4633,6 @@
             ],
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/v5.2.2"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4760,7 +4730,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -4801,9 +4771,6 @@
             ],
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.2.2"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4822,16 +4789,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "196f45723b5e618bf0e23b97e96d11652696ea9e"
+                "reference": "4adc8d172d602008c204c2e16956f99257248e03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/196f45723b5e618bf0e23b97e96d11652696ea9e",
-                "reference": "196f45723b5e618bf0e23b97e96d11652696ea9e",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/4adc8d172d602008c204c2e16956f99257248e03",
+                "reference": "4adc8d172d602008c204c2e16956f99257248e03",
                 "shasum": ""
             },
             "require": {
@@ -4862,9 +4829,6 @@
             ],
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/finder/tree/v5.2.2"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4879,11 +4843,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-27T10:01:46+00:00"
+            "time": "2021-01-28T22:06:19+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
@@ -4931,9 +4895,6 @@
                 "configuration",
                 "options"
             ],
-            "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v5.2.2"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -5323,9 +5284,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php70/tree/v1.20.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -5399,9 +5357,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.22.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -5582,7 +5537,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -5623,9 +5578,6 @@
             ],
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/process/tree/v5.2.2"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -5723,7 +5675,7 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
@@ -5764,9 +5716,6 @@
             ],
             "description": "Provides a way to profile code",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/stopwatch/tree/v5.2.2"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -5847,9 +5796,6 @@
                 "utf-8",
                 "utf8"
             ],
-            "support": {
-                "source": "https://github.com/symfony/string/tree/v5.2.3"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -6057,16 +6003,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "4.5.1",
+            "version": "4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "257a1ca672a79dedc852be1285a7b97154646418"
+                "reference": "15a9eece1305fd26eb1336a78e5a2ee7a4b36214"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/257a1ca672a79dedc852be1285a7b97154646418",
-                "reference": "257a1ca672a79dedc852be1285a7b97154646418",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/15a9eece1305fd26eb1336a78e5a2ee7a4b36214",
+                "reference": "15a9eece1305fd26eb1336a78e5a2ee7a4b36214",
                 "shasum": ""
             },
             "require": {
@@ -6100,6 +6046,7 @@
                 "bamarni/composer-bin-plugin": "^1.2",
                 "brianium/paratest": "^4.0||^6.0",
                 "ext-curl": "*",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpdocumentor/reflection-docblock": "^5",
                 "phpmyadmin/sql-parser": "5.1.0||dev-master",
                 "phpspec/prophecy": ">=1.9.0",
@@ -6153,23 +6100,19 @@
                 "inspection",
                 "php"
             ],
-            "support": {
-                "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/4.5.1"
-            },
-            "time": "2021-02-11T19:12:25+00:00"
+            "time": "2021-02-13T21:45:13+00:00"
         },
         {
             "name": "webmozart/assert",
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozarts/assert.git",
+                "url": "https://github.com/webmozart/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -6207,8 +6150,8 @@
                 "validate"
             ],
             "support": {
-                "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/1.9.1"
+                "issues": "https://github.com/webmozart/assert/issues",
+                "source": "https://github.com/webmozart/assert/tree/master"
             },
             "time": "2020-07-08T17:02:28+00:00"
         },
@@ -6275,5 +6218,5 @@
     "platform-overrides": {
         "php": "7.3.24"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }

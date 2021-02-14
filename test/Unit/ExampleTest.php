@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Inquid\Library\Test\Unit;
 
-use Ergebnis\Library\Example;
+use Inquid\Library\Example;
 use Ergebnis\Test\Util;
 use PHPUnit\Framework;
 
