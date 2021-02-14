@@ -52,12 +52,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ergebnis\\Library\\": "src/"
+      "Inquid\\Library\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ergebnis\\Library\\Test\\": "test/"
+      "Inquid\\Library\\Test\\": "test/"
     }
   },
   "support": {
