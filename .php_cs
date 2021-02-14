@@ -8,11 +8,11 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
  *
- * @see https://github.com/ergebnis/php-library-template
+ * @see https://github.com/inquid/php-library-template
  */
 
-use Inquid\License;
-use Inquid\PhpCsFixer;
+use Ergebnis\License;
+use Ergebnis\PhpCsFixer;
 
 $license = License\Type\MIT::markdown(
     __DIR__ . '/LICENSE.md',
