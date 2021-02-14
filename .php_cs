@@ -21,7 +21,7 @@ $license = License\Type\MIT::markdown(
         new \DateTimeZone('UTC')
     ),
     License\Holder::fromString('Inquid'),
-    License\Url::fromString('https://github.com/ergebnis/php-library-template')
+    License\Url::fromString('https://github.com/inquid/php-library-template')
 );
 
 $license->save();
