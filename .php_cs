@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2017-2021 Andreas Möller
+ * Copyright (c) 2017-2021 Inquid
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
@@ -20,7 +20,7 @@ $license = License\Type\MIT::markdown(
         License\Year::fromString('2017'),
         new \DateTimeZone('UTC')
     ),
-    License\Holder::fromString('Andreas Möller'),
+    License\Holder::fromString('Inquid'),
     License\Url::fromString('https://github.com/ergebnis/php-library-template')
 );
 
