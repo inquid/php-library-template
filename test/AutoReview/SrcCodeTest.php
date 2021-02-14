@@ -3,15 +3,15 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2017-2021 Andreas Möller
+ * Copyright (c) 2017-2021 Inquid
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
  *
- * @see https://github.com/ergebnis/php-library-template
+ * @see https://github.com/inquid/php-library-template
  */
 
-namespace Ergebnis\Library\Test\AutoReview;
+namespace Inquid\Library\Test\AutoReview;
 
 use Ergebnis\Test\Util;
 use PHPUnit\Framework;
@@ -29,8 +29,8 @@ final class SrcCodeTest extends Framework\TestCase
     {
         self::assertClassesHaveTests(
             __DIR__ . '/../../src/',
-            'Ergebnis\\Library\\',
-            'Ergebnis\\Library\\Test\\Unit\\'
+            'Inquid\\Library\\',
+            'Inquid\\Library\\Test\\Unit\\'
         );
     }
 }
